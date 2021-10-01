@@ -1,0 +1,7 @@
+{
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "css.lint.unknownAtRules": "ignore",
+    "css.validate": true,
+    "scss.validate": true,
+    "editor.formatOnSave": true
+}
