@@ -21,4 +21,7 @@
   .active-link {
     @apply font-body-bold text-yellow-400;
   }
+  .width-side-content {
+    width: calc(100% - 240px);
+  }
 }

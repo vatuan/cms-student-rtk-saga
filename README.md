@@ -36,14 +36,14 @@ function* saga(){
 - Example
 
 ```php
+function* worker(payload){
+    // ... do some stuff
+}
 function* watcher(){
     while(true){
         const action = yield take(ACTION)   // take là 1 blocking call
         yield fork(worker, action.payload)
     }
-}
-function* worker(payload){
-    // ... do some stuff
 }
 ```
 

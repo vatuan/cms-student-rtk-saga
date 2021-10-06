@@ -15,12 +15,22 @@ module.exports = {
           light: "#b3bcf5",
           DEFAULT: "#5c6ac4",
         },
+        dark : '#293255',
+        "dark-light" : "#333a54",
+        gray : {
+          light : '#F5F6FA',
+          "01" : "rgba(173, 177, 189, 0.15)",
+          "02" : "#ADB1BD"
+        }
       },
       fontFamily: {
         body: ['"Lato"'],
         "body-bold": ['"Lato Bold"'],
       },
     },
+    // spacing: {
+    //   '9': '18px',
+    // }
   },
   variants: {
     extend: {},
