@@ -18,10 +18,34 @@
 }
 
 @layer components {
-  .active-link {
-    @apply font-body-bold text-yellow-400;
+  .active {
+    @apply block bg-primary rounded-md;
   }
   .width-side-content {
     width: calc(100% - 240px);
+  }
+  .width-side-content--collapsed {
+    width: calc(100% - 80px);
+  }
+  .tooltip-position {
+    left: calc(100% + 0.75rem + 0.5rem);
+  }
+  .pagination {
+    @apply flex items-center justify-center;
+  }
+  .page-link-item {
+    @apply block px-3 py-1 rounded text-gray-400;
+  }
+  .page-item.active a.page-link-item {
+    @apply text-white;
+  }
+  .pagination .previous {
+    @apply px-3;
+  }
+  .pagination .next {
+    @apply px-3;
+  }
+  .pagination li.disabled {
+    @apply cursor-not-allowed;
   }
 }

@@ -1,10 +1,10 @@
 export function Logo() {
   return (
     <svg width="156" height="34" viewBox="0 0 156 34" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <g clip-path="url(#clip0)">
+      <g clipPath="url(#clip0)">
         <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
+          fillRule="evenodd"
+          clipRule="evenodd"
           d="M17.149 3.04694C10.859 8.03137 11.0392 16.2351 6.1012 21.0014C0.296791 26.9499 0.0854492 32.4586 0.0854492 32.4586C8.47223 35.5442 16.5782 32.6831 20.5233 26.3387C23.6586 21.3029 23.3581 15.6 23.6651 10.6862C23.6651 10.6733 23.6651 10.6605 23.6651 10.6477C23.6651 10.6284 23.6716 10.6092 23.6716 10.5835C23.7762 8.96052 23.959 7.43376 24.3509 6.04171C25.3242 2.12217 26.8983 0.781439 26.9898 0.70446C22.7115 -0.0140167 19.6768 1.10962 17.149 3.04694Z"
           fill="url(#paint0_linear)"
         />
@@ -51,8 +51,8 @@ export function Logo() {
         fill="white"
       />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M57.4874 18.9472H54.1439C52.9588 18.9472 51.9934 18.0022 51.9934 16.8422H55.3369C56.522 16.8422 57.4874 17.7871 57.4874 18.9472Z"
         fill="white"
       />
@@ -65,8 +65,8 @@ export function Logo() {
           y2="36.614"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#6CD5DC" />
-          <stop offset="1" stop-color="#3BC1C9" />
+          <stop stopColor="#6CD5DC" />
+          <stop offset="1" stopColor="#3BC1C9" />
         </linearGradient>
         <linearGradient
           id="paint1_linear"
@@ -76,8 +76,8 @@ export function Logo() {
           y2="18.9168"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#5052C9" />
-          <stop offset="1" stop-color="#6B69DB" />
+          <stop stopColor="#5052C9" />
+          <stop offset="1" stopColor="#6B69DB" />
         </linearGradient>
         <linearGradient
           id="paint2_linear"
@@ -87,8 +87,8 @@ export function Logo() {
           y2="31.2016"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#5052C9" />
-          <stop offset="1" stop-color="#3E56CF" />
+          <stop stopColor="#5052C9" />
+          <stop offset="1" stopColor="#3E56CF" />
         </linearGradient>
         <clipPath id="clip0">
           <rect width="26.9109" height="33.2488" fill="white" transform="translate(0.0854492 0.461182)" />
